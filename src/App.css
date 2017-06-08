@@ -30,8 +30,8 @@ h5 {
 
 p {
   font-size: 16px;
- font-size: 1.6vw;
- font-family: "Roboto", sans-serif;
+  font-size: 1.5vw;
+  font-family: "Roboto", sans-serif;
 }
 
 html, body{
@@ -44,7 +44,6 @@ body {
     margin: 0;
     padding: 0;
   }
-
 
 .footerText {
   font-size: 1.1vw
@@ -69,7 +68,7 @@ body {
   }
 
 .classText {
-  font-size: 1.2vw;
+  font-size: 1.1vw;
 }
 
 
@@ -125,6 +124,8 @@ body {
       #footerHead {font-size: 2.4vh}
       .footerText {font-size: 2.1vh}
       .classText {font-size: 3.5vw}
+      #jumbotronHeader {font-size: 6.0vw}
+      #jumbotronCaption {font-size: 3.7vw}
 
 
       }
