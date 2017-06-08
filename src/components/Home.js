@@ -10,7 +10,7 @@ class Home extends React.Component {
       <div>
         <div className="parallax col-12" style={{ backgroundImage: "url(" + HomeBanner + ")"}}>
           <div style={{paddingTop: "30%", color: "white" }}>
-            <h3 className="bannerHeader animated fadeIn" >photography for life</h3>
+            <h4 className="bannerHeader animated fadeIn" >photography for life</h4>
 
           </div>
         </div>

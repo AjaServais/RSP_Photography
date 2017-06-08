@@ -27,7 +27,7 @@ class HomeCards extends React.Component {
       <div className="pageContainer">
         <div className="container" style={{ backgroundColor: "gainsboro", width: "100%", paddingLeft: "5%" }}>
           <div style={{ paddingTop: "1%" }}>
-            <h1> Professional Photography Services</h1>
+            <h3> Professional Photography Services</h3>
             <p>The best moments are the ones captured! Build your personal memories or enhance <br />
               your brand through powerful imagery and story telling.</p>
           </div>
@@ -35,7 +35,7 @@ class HomeCards extends React.Component {
             <article className="col-10" style={articleStyle}>
               <img src="./images/site/CameraInHand.jpeg" alt="camera" style={{ maxWidth: "100%" }} />
               <div style={text}>
-                <h3 style={{ paddingTop: "2%" }}>Book a Photo Session</h3>
+                <h5 style={{ paddingTop: "2%" }}>Book a Photo Session</h5>
                 <p>Capture every moment.</p>
                 <button className="btn btn-default" style={styleButton}><Link to="/Contact" style={{ textDecoration: "none", color: "white" }}>
                   BOOK A SESSION </Link></button>
@@ -45,7 +45,7 @@ class HomeCards extends React.Component {
             <article className="col-10" style={articleStyle}>
               <img src="./images/wedding/BW-dress.jpg" alt="wedding dress" style={{ maxWidth: "100%" }} />
               <div style={text}>
-                <h3 style={{ paddingTop: "2%" }}>Wedding Packages</h3>
+                <h5 style={{ paddingTop: "2%" }}>Wedding Packages</h5>
                 <p>A package for every need and budget.</p>
                 <button className="btn btn-default" style={styleButton}><Link to="/WeddingPkg" style={{ textDecoration: "none", color: "white" }}> WEDDING PACKAGES </Link></button>
               </div>
@@ -54,7 +54,7 @@ class HomeCards extends React.Component {
             <article className="col-10" style={articleStyle}>
               <img src="./images/site/contact-rsp.jpg" alt="filler" style={{ maxWidth: "100%" }} />
               <div style={text}>
-                <h3 style={{ paddingTop: "2%" }}>Contact</h3>
+                <h5 style={{ paddingTop: "2%" }}>Contact</h5>
                 <p>Get started here.</p>
                 <button className="btn btn-default" style={styleButton}><Link to="/Contact" style={{ textDecoration: "none", color: "white" }}>CONTACT </Link></button>
               </div>
